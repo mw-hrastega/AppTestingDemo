@@ -1,8 +1,8 @@
-name: Test an App Using Virtual Display
+name: Use Virtual Display on Linux Runner
 on: [push]
 jobs:
   my-job:
-    name: Run MATLAB Tests
+    name: Test an App
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
